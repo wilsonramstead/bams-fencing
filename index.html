@@ -22,7 +22,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232f5233'/%3E%3Cg fill='none' stroke='%23c37f4d' stroke-width='7' stroke-linecap='round'%3E%3Cpath d='M30 24v58M50 24v58M70 24v58'/%3E%3Cpath d='M18 44h64M18 64h64'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Combo&family=Noto+Sans+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Noto+Sans+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -78,7 +78,7 @@
   --maxw:1180px;
   --radius:16px;
   --radius-lg:24px;
-  --display:"Combo",Georgia,serif;
+  --display:"Patua One",Georgia,serif;
   --body:"Noto Sans Display",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
 }
 *{box-sizing:border-box}
@@ -91,10 +91,10 @@ body{
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 button{font-family:inherit}
-h1,h2,h3,h4{font-family:var(--display);line-height:1.06;letter-spacing:0;margin:0;font-weight:400;color:var(--forest);text-wrap:balance}
-h1{font-size:clamp(2.5rem,5.2vw,4rem);line-height:1.05;letter-spacing:.005em}
-h2{font-size:clamp(2.05rem,4.5vw,3.3rem);letter-spacing:.005em}
-h3{font-size:1.34rem;line-height:1.14}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.06;letter-spacing:.01em;margin:0;font-weight:400;color:var(--forest);text-wrap:balance}
+h1{font-size:clamp(2.35rem,4.9vw,3.7rem);line-height:1.06;letter-spacing:.005em}
+h2{font-size:clamp(1.95rem,4.1vw,3.05rem);letter-spacing:.008em}
+h3{font-size:1.3rem;line-height:1.16}
 h4{font-size:1.02rem;letter-spacing:.01em;font-family:var(--body);font-weight:700}
 p{margin:0;text-wrap:pretty}
 a,p,li{overflow-wrap:break-word}
@@ -145,7 +145,7 @@ section{padding:clamp(58px,8vw,110px) 0}
 .brand-mark{width:44px;height:44px;flex:none;border-radius:11px;background:linear-gradient(150deg,var(--forest),var(--forest-soft));display:grid;place-items:center;box-shadow:var(--shadow-sm)}
 .brand-mark svg{width:26px;height:26px}
 .brand-text{display:flex;flex-direction:column;line-height:1;min-width:0}
-.brand-name{font-family:var(--display);font-weight:400;font-size:1.42rem;letter-spacing:.02em;color:var(--forest)}
+.brand-name{font-family:var(--display);font-weight:400;font-size:1.28rem;letter-spacing:.01em;color:var(--forest)}
 .brand-name b{color:var(--cedar);font-weight:400}
 .brand-tag{font-size:.6rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:5px;font-family:var(--body)}
 .main-nav{display:none}
@@ -169,7 +169,7 @@ section{padding:clamp(58px,8vw,110px) 0}
   .header-phone svg{width:20px;height:20px}
   .brand-mark{width:38px;height:38px}
   .brand-mark svg{width:22px;height:22px}
-  .brand-name{font-size:1.2rem}
+  .brand-name{font-size:1.12rem}
   .brand-tag{font-size:.52rem;letter-spacing:.16em}
   .nav-toggle{width:42px;height:42px}
 }
@@ -197,7 +197,7 @@ section{padding:clamp(58px,8vw,110px) 0}
 .hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(103deg,rgba(20,32,20,.94) 0%,rgba(29,52,33,.82) 44%,rgba(29,52,33,.34) 100%)}
 .hero-inner{position:relative;z-index:2;width:100%;padding-top:clamp(18px,2.6vw,34px);padding-bottom:clamp(26px,3.2vw,44px)}
 .hero .eyebrow{margin-bottom:8px}
-.hero h1{color:#fff;max-width:19ch;font-size:clamp(2.35rem,4.2vw,3.3rem);line-height:1.02}
+.hero h1{color:#fff;max-width:19ch;font-size:clamp(2.15rem,3.9vw,3rem);line-height:1.05}
 .hero h1 em{font-style:normal;color:var(--cedar-soft)}
 .hero-sub{margin-top:12px;font-size:clamp(1.02rem,1.5vw,1.12rem);color:#e0e8dd;max-width:56ch;line-height:1.46}
 .hero-cta{margin-top:14px;display:flex;gap:14px;flex-wrap:wrap}
@@ -205,7 +205,7 @@ section{padding:clamp(58px,8vw,110px) 0}
 .hero-badge{display:flex;flex-direction:column;gap:3px;position:relative}
 .hero-badge+.hero-badge{padding-left:clamp(16px,3vw,32px)}
 .hero-badge+.hero-badge::before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:1px;background:rgba(255,255,255,.18)}
-.hero-badge .hb-num{font-family:var(--display);font-weight:400;font-size:1.66rem;color:#fff;line-height:1;letter-spacing:.01em}
+.hero-badge .hb-num{font-family:var(--display);font-weight:400;font-size:1.42rem;color:#fff;line-height:1.04;letter-spacing:.005em}
 .hero-badge .hb-num .stars{color:var(--gold);font-size:1rem}
 .hero-badge .hb-label{font-size:.77rem;color:#c9d6c8;font-weight:600;letter-spacing:.02em}
 @media(max-width:460px){
